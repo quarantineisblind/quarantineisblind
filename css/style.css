@@ -1,11 +1,11 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
 html {
     height: 100%;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #2D2B36;
     width: 100%;
@@ -30,24 +30,77 @@ body {
 }
 h1 {
     margin-bottom: 30px;
-    font-size: 3.75em;
+    font-size: 3em;
     font-weight: 700;
 }
 h2 {
-    font-size: 1.75em;
+    font-size: 1.5em;
     font-weight: 500;
 }
-#app-store {
+.app-store {
     width: 200px;
     height: auto;
     margin-top: 50px;
+    box-sizing: border-box;
+    background-color: white;
+    color: #2D2B36;
+    border: solid 2px transparent;
+    border-radius: 50px;
+    padding: 12px 40px;
+    width: 250px;
+    height: 85px;
+    position: relative;
+    transition: 0.3s;
+}
+.app-store::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -5px;
+    border-radius: inherit;
+    background-image: linear-gradient(76deg, #ff129b, #ff6493, #8727ff, #d427ff);
+    background-size: 800% 800%;
+    -webkit-animation: gradient 16s ease infinite;
+    animation: gradient 16s ease infinite alternate;
+}
+.app-store:hover {
+    width: 200px;
+    height: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: white;
+    border: solid 2px transparent;
+    border-radius: 50px;
+    padding: 12px 40px;
+    width: 250px;
+    height: 85px;
+    position: relative;
+}
+.app-store-content::before {
+    font-family: "Icofont";
+    float: left;
+    margin-top: 10px;
+    font-size: 2em;
+    content: "\e8a7";
+}
+.app-store-content {
+    font-size: 1em;
+    margin: 0px;
+}
+.apple-store {
+    font-size: 1.2em
 }
 footer {
     position: absolute;
     height: 4em;
     bottom: 0;
     width: 80%;
-    font-family: Inter;
+    font-family: Poppins;
     font-size: 1.2em;
     background-image: linear-gradient(76deg, #ff129b, #ff6493, #8727ff, #d427ff);
     background-size: 800% 800%;

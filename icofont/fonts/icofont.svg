@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+<font id="icofont" horiz-adv-x="1000" >
+<font-face font-family="IcoFont" font-weight="400" font-style="Regular" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="brand-apple" horiz-adv-x="1000" unicode="&#xe8a7;" d="M551 774c36 43 97 74 147 76 6-59-17-117-52-160-35-42-92-75-148-70-7 57 21 117 53 154z m285-800c-41-61-84-121-152-123-67-1-88 40-165 40-76 0-100-38-163-41-65-2-115 66-157 127-86 124-151 350-63 503 43 76 121 125 206 126 64 1 125-44 164-44 40 0 113 54 191 46 32-1 124-13 182-99-5-3-109-64-107-190 1-152 132-202 133-203-1-3-21-71-69-142z" />
+</font>
+</defs>
+</svg>
