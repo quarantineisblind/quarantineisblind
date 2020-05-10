@@ -33,12 +33,16 @@ h1 {
     font-size: 3em;
     font-weight: 700;
 }
+#contact-header {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
 h2 {
     font-size: 1.5em;
     font-weight: 500;
 }
 .app-store {
-    width: 200px;
+    line-height: 1.5em;
     height: auto;
     margin-top: 50px;
     box-sizing: border-box;
@@ -48,7 +52,7 @@ h2 {
     border-radius: 50px;
     padding: 12px 40px;
     width: 250px;
-    height: 85px;
+    height: 80px;
     position: relative;
     transition: 0.3s;
 }
@@ -68,18 +72,8 @@ h2 {
     animation: gradient 16s ease infinite alternate;
 }
 .app-store:hover {
-    width: 200px;
-    height: auto;
-    margin-top: 50px;
-    box-sizing: border-box;
     background-color: transparent;
     color: white;
-    border: solid 2px transparent;
-    border-radius: 50px;
-    padding: 12px 40px;
-    width: 250px;
-    height: 85px;
-    position: relative;
 }
 .app-store-content::before {
     font-family: "Icofont";
@@ -161,6 +155,75 @@ footer {
 }
 #contact {
     float: right;
+}
+form input {
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: solid 3px #FCF0F7;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-size: 1em;
+    width: 250px;
+}
+form textarea {
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: solid 3px #FCF0F7;
+    font-family: Poppins;
+    font-size: 0.9em;
+}
+.submit {
+    height: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    color: #2D2B36;
+    border: solid 2px transparent;
+    border-radius: 50px;
+    width: 150px;
+    height: 55px;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.submit::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -5px;
+    border-radius: inherit;
+    background-image: linear-gradient(76deg, #ff129b, #ff6493, #8727ff, #d427ff);
+    background-size: 800% 800%;
+    -webkit-animation: gradient 16s ease infinite;
+    animation: gradient 16s ease infinite alternate;
+}
+.submit:hover {
+    background-color: transparent;
+}
+.submit input {
+    padding: 12px 45px;
+    width: 150px;
+    height: 55px;
+    border: none;
+}
+.submit input:hover {
+    color: white;
+}
+.submit-button {
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins;
+    font-size: 1em;
+    background-color: transparent;
 }
 
 /*
