@@ -46,6 +46,8 @@
                 font-size: 1.5em;
                 font-weight: 500;
             }
+            /* app button */
+            
             .app-store {
                 line-height: 1.5em;
                 height: auto;
@@ -94,6 +96,8 @@
             .apple-store {
                 font-size: 1.2em
             }
+            /* footer */
+            
             footer {
                 position: absolute;
                 height: 4em;
@@ -108,10 +112,12 @@
                 -webkit-text-fill-color: transparent;
                 -webkit-background-clip: text;
             }
+            /*background */
+            
             #blob1,
             #blob2,
             #blob3 {
-                opacity: 0.3;
+                opacity: 0.4;
                 position: absolute;
                 height: auto;
                 z-index: -1;
@@ -120,17 +126,84 @@
                 width: 450px;
                 top: 335px;
                 left: 550px;
+                animation: blobMove1 110s ease-in-out infinite;
             }
             #blob2 {
                 width: 600px;
                 top: -180px;
-                right: -190px
+                right: -190px;
+                animation: blobMove2 115s ease-in-out infinite;
             }
             #blob3 {
                 width: 475px;
                 top: 25px;
                 left: -80px;
+                animation: blobMove3 125s ease-in-out infinite;
             }
+            /* animations */
+            
+            @keyframes blobMove1 {
+                0% {
+                    transform: scale(1) translate(10px, -20px);
+                }
+                38% {
+                    transform: scale(0.8, 1) translate(10vw, 20vh) rotate(160deg);
+                }
+                40% {
+                    transform: scale(0.8, 1) translate(10vw, 20vh) rotate(160deg);
+                }
+                88% {
+                    transform: scale(1.3) translate(5vw, 20vh) rotate(-20deg);
+                }
+                90% {
+                    transform: scale(1.3) translate(5vw, 20vh) rotate(-20deg);
+                }
+                100% {
+                    transform: scale(1) translate(10px, -20px);
+                }
+            }
+            @keyframes blobMove2 {
+                0% {
+                    transform: scale(1) translate(10px, -20px);
+                }
+                38% {
+                    transform: scale(1.2, 1) translate(-10vw, 20vh) rotate(120deg);
+                }
+                40% {
+                    transform: scale(1.2, 1) translate(-10vw, 20vh) rotate(120deg);
+                }
+                78% {
+                    transform: scale(0.8) translate(0vw, 20vh) rotate(-20deg);
+                }
+                80% {
+                    transform: scale(0.8) translate(0vw, 20vh) rotate(-20deg);
+                }
+                100% {
+                    transform: scale(1) translate(10px, -20px);
+                }
+            }
+            @keyframes blobMove3 {
+                0% {
+                    transform: scale(1) translate(10px, -20px);
+                }
+                48% {
+                    transform: scale(0.9, 1) translate(16vw, 10vh) rotate(90deg);
+                }
+                50% {
+                    transform: scale(0.9, 1) translate(16vw, 10vh) rotate(90deg);
+                }
+                88% {
+                    transform: scale(1.3) translate(0vw, 10vh) rotate(-40deg);
+                }
+                90% {
+                    transform: scale(1.3) translate(0vw, 10vh) rotate(-40deg);
+                }
+                100% {
+                    transform: scale(1) translate(10px, -20px);
+                }
+            }
+            /* gradient */
+            
             @-webkit-keyframes gradient {
                 0% {
                     background-position: 0% 50%
