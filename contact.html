@@ -24,27 +24,27 @@
             <h1 id="contact-header">
         Contact us 
     </h1>
-            <?php
+            <!--<?php
 $action=$_REQUEST['action'];
 if ($action=="")    /* display the contact form */
     {
-    ?>
-                <form action="http://formspree.io/galaxiawu@hotmail.com" method="POST" enctype="multipart/form-data">
-                    <input type="hidden" name="action" value="submit"> Your name:
-                    <br>
-                    <input name="name" type="text" value="" size="30" />
-                    <br> Your email:
-                    <br>
-                    <input name="_replyto" type="text" value="" size="30" />
-                    <br> Your message:
-                    <br>
-                    <textarea name="message" rows="4" cols="30"></textarea>
-                    <br>
-                    <div class="submit">
-                        <input class="submit-button" type="submit" />
-                    </div>
-                </form>
-                <!--
+    ?>-->
+            <form action="http://formspree.io/galaxiawu@hotmail.com" method="POST">
+                <input type="hidden" name="action" value="submit"> Your name:
+                <br>
+                <input name="name" type="text" value="" size="30" />
+                <br> Your email:
+                <br>
+                <input name="_replyto" type="text" value="" size="30" />
+                <br> Your message:
+                <br>
+                <textarea name="message" rows="4" cols="30"></textarea>
+                <br>
+                <div class="submit">
+                    <input class="submit-button" type="submit" />
+                </div>
+            </form>
+            <!--
                 <?php
     } 
 else                /* send the submitted data */
@@ -68,21 +68,21 @@ else                /* send the submitted data */
 -->
 
 
-                <div class="blobs">
-                    <img id="blob1" src="img/blob1.svg">
-                    <img id="blob2" src="img/blob2.svg">
-                    <img id="blob3" src="img/blob3.svg">
-                </div>
+            <div class="blobs">
+                <img id="blob1" src="img/blob1.svg">
+                <img id="blob2" src="img/blob2.svg">
+                <img id="blob3" src="img/blob3.svg">
+            </div>
 
-                <footer>
-                    <a href="" id="privacy">Privacy Policy</a>
-                    <a href="" id="terms">Terms &amp; Conditions</a>
-                    <a href="contact.html" id="contact">Contact us</a>
-                </footer>
-                <script>
-                    /* don't touch this */
+            <footer>
+                <a href="" id="privacy">Privacy Policy</a>
+                <a href="" id="terms">Terms &amp; Conditions</a>
+                <a href="contact.html" id="contact">Contact us</a>
+            </footer>
+            <script>
+                /* don't touch this */
 
-                </script>
+            </script>
         </div>
     </div>
 </body>
