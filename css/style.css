@@ -562,6 +562,9 @@
                     #blob3 {
                         opacity: 0.25;
                     }
+                    #blob1 {
+                        display: none;
+                    }
                 }
                 /*
 body {
