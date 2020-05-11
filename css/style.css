@@ -109,7 +109,6 @@
                 /* footer */
                 
                 #footer-links {
-                    color: #ff129b;
                     position: absolute;
                     height: 4em;
                     bottom: 30px;
@@ -122,6 +121,10 @@
                     animation: gradient 16s ease infinite alternate;
                     -webkit-text-fill-color: transparent;
                     -webkit-background-clip: text;
+                }
+                #footer-links a {
+                    text-decoration: none;
+                    color: #d427ff;
                 }
                 #copyright {
                     position: absolute;
@@ -531,7 +534,7 @@
                     }
                     #bottom-section {
                         padding: 0px;
-                        font-size: 0.8em;
+                        font-size: 0.6em;
                     }
                     #privacy,
                     #terms,
