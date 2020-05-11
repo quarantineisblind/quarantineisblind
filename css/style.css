@@ -192,10 +192,10 @@
                         transform: scale(0.8, 1) translate(10vw, 7vh) rotate(160deg);
                     }
                     88% {
-                        transform: scale(1.2) translate(5vw, 2vh) rotate(-50deg);
+                        transform: scale(1.2) translate(10vw, 2vh) rotate(-50deg);
                     }
                     90% {
-                        transform: scale(1.2) translate(5vw, 2vh) rotate(-50deg);
+                        transform: scale(1.2) translate(10vw, 2vh) rotate(-50deg);
                     }
                     100% {
                         transform: scale(1) translate(10px, -20px);
@@ -266,6 +266,11 @@
                     }
                 }
                 #bottom-section {
+                    background-color: white;
+                    padding: 0px 150px;
+                }
+                #mail-section {
+                    margin-top: 200px;
                     background-color: white;
                     padding: 0px 150px;
                     border-bottom: solid 40px white
@@ -481,7 +486,8 @@
                     #copyright {
                         width: 100%;
                     }
-                    #bottom-section {
+                    #bottom-section,
+                    #mail-section {
                         padding: 0px;
                         font-size: 0.8em;
                         text-align: center;
@@ -541,9 +547,13 @@
                         grid-template-columns: max-content max-content max-content;
                         grid-gap: 30px;
                     }
-                    #bottom-section {
+                    #bottom-section,
+                    #mail-section {
                         padding: 0px;
                         font-size: 0.6em;
+                    }
+                    #mail-section {
+                        margin-top: 0px;
                     }
                     #privacy,
                     #terms,
