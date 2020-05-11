@@ -51,6 +51,12 @@
             }
             /* app button */
             
+            .app-link {
+                display: block;
+                width: 250px;
+                margin: 0 auto;
+                text-decoration: none;
+            }
             .app-store {
                 line-height: 1.5em;
                 height: auto;
@@ -248,6 +254,34 @@
                     background-position: 0% 50%
                 }
             }
+            /* mailchimp */
+            
+            #mc_embed_signup {
+                margin-top: 225px;
+            }
+            #signup-grid {
+                display: grid;
+                justify-content: center;
+                grid-template-columns: max-content max-content max-content;
+                grid-gap: 30px;
+            }
+            #signup-grid h2 {
+                padding-right: 20px;
+            }
+            .mc-field-group input {
+                width: 300px;
+                border: solid 3px #d427ff;
+            }
+            #mc-embedded-subscribe {
+                width: 125px;
+                border: solid 3px #d427ff;
+                cursor: pointer;
+            }
+            #mc-embedded-subscribe:hover {
+                background-color: transparent;
+            }
+            /* contact form */
+            
             form {
                 margin-bottom: 0px;
             }
