@@ -522,6 +522,15 @@
                     #page-container {
                         padding: 150px 10px 120px 10px;
                     }
+                    #footer-links {
+                        background-image: none;
+                        -webkit-text-fill-color: #d427ff;
+                        -webkit-background-clip: text;
+                    }
+                    #footer-links a {
+                        text-decoration: none;
+                        color: #d427ff;
+                    }
                     #logo {
                         width: 300px;
                         margin-bottom: 0px;
