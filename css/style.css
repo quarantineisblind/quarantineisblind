@@ -267,6 +267,7 @@
             }
             #signup-grid h2 {
                 padding-right: 20px;
+                font-size: 1.2em;
             }
             .mc-field-group input {
                 width: 300px;
@@ -276,9 +277,7 @@
                 width: 125px;
                 border: solid 3px #d427ff;
                 cursor: pointer;
-            }
-            #mc-embedded-subscribe:hover {
-                background-color: transparent;
+                background-color: #ffffff;
             }
             /* contact form */
             
@@ -487,6 +486,12 @@
                 #logo {
                     width: 300px;
                     margin-bottom: 0px;
+                }
+                #signup-grid {
+                    display: block;
+                    justify-content: center;
+                    grid-template-columns: max-content max-content max-content;
+                    grid-gap: 30px;
                 }
                 footer {
                     font-size: 0.8em;
