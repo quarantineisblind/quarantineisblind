@@ -14,7 +14,7 @@
                 #page-container {
                     position: relative;
                     min-height: 100vh;
-                    padding: 100px 150px 0px 150px;
+                    padding: 100px 0px;
                     z-index: 1;
                 }
                 #content-wrap {
@@ -160,7 +160,7 @@
                 }
                 #blob1 {
                     width: 450px;
-                    top: 300px;
+                    top: 250px;
                     left: 550px;
                     animation: blobMove1 100s ease-in-out infinite;
                 }
@@ -189,10 +189,10 @@
                         transform: scale(0.8, 1) translate(10vw, 7vh) rotate(160deg);
                     }
                     88% {
-                        transform: scale(1.2) translate(5vw, 5vh) rotate(-20deg);
+                        transform: scale(1.2) translate(5vw, 2vh) rotate(-50deg);
                     }
                     90% {
-                        transform: scale(1.2) translate(5vw, 5vh) rotate(-20deg);
+                        transform: scale(1.2) translate(5vw, 2vh) rotate(-50deg);
                     }
                     100% {
                         transform: scale(1) translate(10px, -20px);
@@ -262,12 +262,17 @@
                         background-position: 0% 50%
                     }
                 }
+                #bottom-section {
+                    background-color: white;
+                    padding: 0px 150px;
+                    border-bottom: solid 40px white
+                }
                 /* mailchimp */
                 
                 #mc_embed_signup {
-                    margin-top: 160px;
+                    margin-top: 50px;
                     padding-top: 60px;
-                    border-top: solid 1px #8727ff;
+                    /*border-top: solid 1px #8727ff;*/
                 }
                 #signup-grid {
                     display: grid;
@@ -400,7 +405,7 @@
                 }
                 #privacy-policy ul {
                     margin-bottom: 15px;
-                    margin-left: 20px;
+                    margin-left: 35px;
                 }
                 #privacy-policy a {
                     color: #ff6493;
@@ -437,7 +442,7 @@
                 }
                 #terms-conditions ul {
                     margin-bottom: 15px;
-                    margin-left: 20px;
+                    margin-left: 35px;
                 }
                 #terms-conditions a {
                     color: #ff6493;
