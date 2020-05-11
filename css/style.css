@@ -10,6 +10,7 @@
                     line-height: 3.6em;
                     color: #2D2B36;
                     max-width: 100vw;
+                    overflow-x: hidden;
                 }
                 #page-container {
                     position: relative;
@@ -23,7 +24,6 @@
                 body {
                     text-align: center;
                     color: #3F3C4A;
-                    overflow-x: hidden;
                     width: 100vw;
                 }
                 #logo {
@@ -473,12 +473,16 @@
                         grid-gap: 30px;
                     }
                     #footer-links {
-                        font-size: 1em;
-                        text-align: center;
-                        width: 100%;
+                        width: 100vw;
                     }
                     #copyright {
                         width: 100%;
+                    }
+                    #bottom-section {
+                        padding: 0px;
+                        font-size: 0.8em;
+                        text-align: center;
+                        width: 100vw;
                     }
                     #privacy,
                     #terms,
@@ -528,10 +532,6 @@
                     #bottom-section {
                         padding: 0px;
                         font-size: 0.8em;
-                    }
-                    footer {
-                        text-align: center;
-                        width: 100%;
                     }
                     #privacy,
                     #terms,
