@@ -525,8 +525,11 @@
                         grid-template-columns: max-content max-content max-content;
                         grid-gap: 30px;
                     }
-                    footer {
+                    #bottom-section {
+                        padding: 0px;
                         font-size: 0.8em;
+                    }
+                    footer {
                         text-align: center;
                         width: 100%;
                     }
