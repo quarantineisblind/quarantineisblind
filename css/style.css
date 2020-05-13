@@ -106,6 +106,21 @@
                 .apple-store {
                     font-size: 1.2em
                 }
+                /* scroller */
+                
+                #scroll {
+                    margin-top: 20px;
+                }
+                .arrow {
+                    border: solid #2D2B36;
+                    border-width: 0 2px 2px 0;
+                    display: inline-block;
+                    padding: 10px;
+                }
+                .down {
+                    transform: rotate(45deg);
+                    -webkit-transform: rotate(45deg);
+                }
                 /* footer */
                 
                 #footer-links {
@@ -270,7 +285,7 @@
                     padding: 0px 150px;
                 }
                 #mail-section {
-                    margin-top: 200px;
+                    margin-top: 175px;
                     background-color: white;
                     padding: 0px 150px;
                     border-bottom: solid 40px white
