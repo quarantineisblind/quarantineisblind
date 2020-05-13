@@ -313,6 +313,7 @@
                 }
                 #mc-embedded-subscribe {
                     width: 125px;
+                    height: 55px;
                     border: solid 3px #d427ff;
                     cursor: pointer;
                     background-color: #ffffff;
