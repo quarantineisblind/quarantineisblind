@@ -1,6 +1,6 @@
                 * {
                     margin: 0 auto;
-                    padding: 0;
+                    padding: 0px;
                     box-sizing: border-box;
                 }
                 html {
@@ -397,6 +397,41 @@
                     font-size: 1em;
                     background-color: transparent;
                 }
+                /* how */
+                
+                .how-text {
+                    padding: 0px 100px;
+                    margin-top: 30px;
+                }
+                #how {
+                    margin-top: 50px;
+                    margin-bottom: 75px;
+                }
+                #how p {
+                    line-height: 1.5em;
+                    margin-bottom: 50px;
+                }
+                #how-header {
+                    font-size: 1.4em;
+                }
+                #how-grid {
+                    text-align: left;
+                    display: grid;
+                    grid-row-gap: 30px;
+                    grid-column-gap: 30px;
+                    justify-content: center;
+                    justify-items: center;
+                    align-items: center;
+                    grid-template-columns: repeat(2, minmax(450px, 1fr));
+                    margin-bottom: 40px;
+                }
+                #how-grid img {
+                    max-width: 450px;
+                    margin: 0px;
+                }
+                #how-grid p {
+                    font-size: 2em;
+                }
                 /* privacy */
                 
                 #privacy-policy {
@@ -509,6 +544,26 @@
                         text-align: center;
                         width: 100vw;
                     }
+                    #how {
+                        padding: 0px 75px;
+                    }
+                    #how p {
+                        margin-bottom: 10px;
+                        font-size: 1.2em;
+                    }
+                    #how-header {
+                        font-size: 1.6em;
+                        margin-bottom: 15px;
+                    }
+                    #how-grid {
+                        grid-template-columns: repeat(2, minmax(200px, 1fr));
+                    }
+                    #how-grid img {
+                        max-width: 250px;
+                    }
+                    #how-grid p {
+                        font-size: 1.8em;
+                    }
                     #privacy,
                     #terms,
                     #contact {
@@ -571,6 +626,29 @@
                     #mail-section {
                         margin-top: 0px;
                     }
+                    #how {
+                        padding: 0px 75px;
+                    }
+                    .how-text {
+                        padding: 0px;
+                    }
+                    #how p {
+                        margin-bottom: 10px;
+                        font-size: 1.2em;
+                    }
+                    #how-header {
+                        font-size: 1.6em;
+                        margin-bottom: 15px;
+                    }
+                    #how-grid {
+                        grid-template-columns: repeat(2, minmax(200px, 1fr));
+                    }
+                    #how-grid img {
+                        max-width: 200px;
+                    }
+                    #how-grid p {
+                        font-size: 1.8em;
+                    }
                     #privacy,
                     #terms,
                     #contact {
@@ -599,6 +677,41 @@
                     }
                     #blob1 {
                         display: none;
+                    }
+                    #how {
+                        padding: 0 30px;
+                        max-width: 100%;
+                    }
+                    .how-text {
+                        padding: 0px;
+                    }
+                    #how p {
+                        font-size: 1.2em;
+                        margin-bottom: 10px;
+                    }
+                    #how-header {
+                        font-size: 1.8em;
+                    }
+                    #how-grid {
+                        display: grid;
+                        grid-template-columns: 1fr;
+                        grid-gap: 0px;
+                        justify-items: center;
+                    }
+                    #how-grid img {
+                        max-width: 250px;
+                    }
+                    #how-grid p {
+                        font-size: 1.4em;
+                        margin-top: 40px;
+                        margin-bottom: 20px;
+                        text-align: center;
+                    }
+                    .how2 {
+                        grid-row: 4;
+                    }
+                    .how4 {
+                        grid-row: 8;
                     }
                 }
                 /*
