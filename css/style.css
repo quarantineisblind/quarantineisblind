@@ -473,10 +473,11 @@
                     font-size: 2em;
                 }
                 #how-grid {
+                    padding: 0 4vw;
                     text-align: left;
                     display: grid;
                     grid-row-gap: 30px;
-                    grid-column-gap: 30px;
+                    grid-column-gap: 10px;
                     justify-content: center;
                     justify-items: center;
                     align-items: center;
