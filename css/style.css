@@ -1,6 +1,6 @@
                 * {
                     margin: 0 auto;
-                    padding: 0;
+                    padding: 0px;
                     box-sizing: border-box;
                 }
                 html {
@@ -105,6 +105,64 @@
                 }
                 .apple-store {
                     font-size: 1.2em
+                }
+                /* second button */
+                
+                .app-link2 {
+                    display: block;
+                    width: 250px;
+                    margin: 0 auto;
+                    text-decoration: none;
+                    margin-bottom: 50px;
+                }
+                .app-store2 {
+                    line-height: 1.5em;
+                    height: auto;
+                    margin-top: 50px;
+                    box-sizing: border-box;
+                    background-color: white;
+                    color: #2D2B36;
+                    border: solid 2px transparent;
+                    border-radius: 50px;
+                    padding: 12px 40px;
+                    width: 250px;
+                    height: 80px;
+                    position: relative;
+                    transition: 0.3s;
+                }
+                .app-store2::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    z-index: -1;
+                    margin: -5px;
+                    border-radius: inherit;
+                    background-image: linear-gradient(76deg, #ff129b, #ff6493, #8727ff, #d427ff);
+                    background-size: 800% 800%;
+                    -webkit-animation: gradient 16s ease infinite;
+                    animation: gradient 16s ease infinite alternate;
+                }
+                .app-store2:hover {
+                    background-color: transparent;
+                    color: white;
+                }
+                .app-store-content2::before {
+                    font-family: "Icofont";
+                    float: left;
+                    margin-top: 10px;
+                    font-size: 2em;
+                    content: "\e8a7";
+                }
+                .app-store-content2 {
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    margin: 0px;
+                }
+                .apple-store2 {
+                    font-size: 1.2em;
                 }
                 /* scroller */
                 
@@ -281,14 +339,13 @@
                     }
                 }
                 #bottom-section {
-                    background-color: white;
                     padding: 0px 150px;
                 }
                 #mail-section {
-                    margin-top: 175px;
-                    background-color: white;
+                    margin-top: 100px;
+                    background-color: transparent;
                     padding: 0px 150px;
-                    border-bottom: solid 40px white
+                    border-bottom: solid 40px white;
                 }
                 /* mailchimp */
                 
@@ -396,6 +453,43 @@
                     font-family: Poppins;
                     font-size: 1em;
                     background-color: transparent;
+                }
+                /* how */
+                
+                .how-text {
+                    padding: 0px 100px;
+                    margin-top: 30px;
+                    font-size: 1.4em;
+                }
+                #how {
+                    margin-top: 100px;
+                    margin-bottom: 0px;
+                }
+                #how p {
+                    line-height: 1.6em;
+                    margin-bottom: 50px;
+                }
+                #how-header {
+                    font-size: 2em;
+                }
+                #how-grid {
+                    padding: 0 4vw;
+                    text-align: left;
+                    display: grid;
+                    grid-row-gap: 30px;
+                    grid-column-gap: 10px;
+                    justify-content: center;
+                    justify-items: center;
+                    align-items: center;
+                    grid-template-columns: repeat(2, minmax(450px, 1fr));
+                    margin-bottom: 40px;
+                }
+                #how-grid img {
+                    max-width: 450px;
+                    margin: 0px;
+                }
+                #how-grid p {
+                    font-size: 2em;
                 }
                 /* privacy */
                 
@@ -509,6 +603,26 @@
                         text-align: center;
                         width: 100vw;
                     }
+                    #how {
+                        padding: 0px 75px;
+                    }
+                    #how p {
+                        margin-bottom: 10px;
+                        font-size: 1.4em;
+                    }
+                    #how-header {
+                        font-size: 1.6em;
+                        margin-bottom: 15px;
+                    }
+                    #how-grid {
+                        grid-template-columns: repeat(2, minmax(200px, 1fr));
+                    }
+                    #how-grid img {
+                        max-width: 250px;
+                    }
+                    #how-grid p {
+                        font-size: 1.8em;
+                    }
                     #privacy,
                     #terms,
                     #contact {
@@ -571,6 +685,29 @@
                     #mail-section {
                         margin-top: 0px;
                     }
+                    #how {
+                        padding: 0px 75px;
+                    }
+                    .how-text {
+                        padding: 0px;
+                    }
+                    #how p {
+                        margin-bottom: 10px;
+                        font-size: 1.8em;
+                    }
+                    #how-header {
+                        font-size: 2em;
+                        margin-bottom: 15px;
+                    }
+                    #how-grid {
+                        grid-template-columns: repeat(2, minmax(200px, 1fr));
+                    }
+                    #how-grid img {
+                        max-width: 200px;
+                    }
+                    #how-grid p {
+                        font-size: 1.8em;
+                    }
                     #privacy,
                     #terms,
                     #contact {
@@ -599,6 +736,42 @@
                     }
                     #blob1 {
                         display: none;
+                    }
+                    #how {
+                        padding: 0 30px;
+                        max-width: 100%;
+                    }
+                    .how-text {
+                        padding: 0px;
+                    }
+                    #how p {
+                        font-size: 1.4em;
+                        margin-bottom: 10px;
+                    }
+                    #how-header {
+                        font-size: 2em;
+                        line-height: 1.5em;
+                    }
+                    #how-grid {
+                        display: grid;
+                        grid-template-columns: 1fr;
+                        grid-gap: 0px;
+                        justify-items: center;
+                    }
+                    #how-grid img {
+                        max-width: 250px;
+                    }
+                    #how-grid p {
+                        font-size: 1.4em;
+                        margin-top: 40px;
+                        margin-bottom: 20px;
+                        text-align: center;
+                    }
+                    .how2 {
+                        grid-row: 4;
+                    }
+                    .how4 {
+                        grid-row: 8;
                     }
                 }
                 /*
